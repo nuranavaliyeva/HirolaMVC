@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Nuran\\source\\repos\\HirolaMVC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ADFACB02-BC80-4CC5-A139-BFEBAC202FA1}|HirolaMVC\\HirolaMVC.csproj|c:\\users\\nuran\\source\\repos\\hirolamvc\\hirolamvc\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ADFACB02-BC80-4CC5-A139-BFEBAC202FA1}|HirolaMVC\\HirolaMVC.csproj|solutionrelative:hirolamvc\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADFACB02-BC80-4CC5-A139-BFEBAC202FA1}|HirolaMVC\\HirolaMVC.csproj|c:\\users\\nuran\\source\\repos\\hirolamvc\\hirolamvc\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ADFACB02-BC80-4CC5-A139-BFEBAC202FA1}|HirolaMVC\\HirolaMVC.csproj|solutionrelative:hirolamvc\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADFACB02-BC80-4CC5-A139-BFEBAC202FA1}|HirolaMVC\\HirolaMVC.csproj|c:\\users\\nuran\\source\\repos\\hirolamvc\\hirolamvc\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ADFACB02-BC80-4CC5-A139-BFEBAC202FA1}|HirolaMVC\\HirolaMVC.csproj|solutionrelative:hirolamvc\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADFACB02-BC80-4CC5-A139-BFEBAC202FA1}|HirolaMVC\\HirolaMVC.csproj|c:\\users\\nuran\\source\\repos\\hirolamvc\\hirolamvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ADFACB02-BC80-4CC5-A139-BFEBAC202FA1}|HirolaMVC\\HirolaMVC.csproj|solutionrelative:hirolamvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OrderItem.cs",
+              "DocumentMoniker": "C:\\Users\\Nuran\\source\\repos\\HirolaMVC\\HirolaMVC\\Models\\OrderItem.cs",
+              "RelativeDocumentMoniker": "HirolaMVC\\Models\\OrderItem.cs",
+              "ToolTip": "C:\\Users\\Nuran\\source\\repos\\HirolaMVC\\HirolaMVC\\Models\\OrderItem.cs",
+              "RelativeToolTip": "HirolaMVC\\Models\\OrderItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T14:32:30.056Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\Nuran\\source\\repos\\HirolaMVC\\HirolaMVC\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "HirolaMVC\\Models\\Order.cs",
+              "ToolTip": "C:\\Users\\Nuran\\source\\repos\\HirolaMVC\\HirolaMVC\\Models\\Order.cs",
+              "RelativeToolTip": "HirolaMVC\\Models\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T14:32:16.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Nuran\\source\\repos\\HirolaMVC\\HirolaMVC\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "HirolaMVC\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Nuran\\source\\repos\\HirolaMVC\\HirolaMVC\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "HirolaMVC\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T14:25:05.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Nuran\\source\\repos\\HirolaMVC\\HirolaMVC\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "HirolaMVC\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Nuran\\source\\repos\\HirolaMVC\\HirolaMVC\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "HirolaMVC\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T11:51:51.936Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
