@@ -3020,7 +3020,7 @@ button.li-btn:hover {
   }
 }
 
-.bg-2 {
+/*.bg-2 {
   background-image: url("../images/slider/2.jpg");
 }
 
@@ -3035,7 +3035,7 @@ button.li-btn:hover {
   background-position: center center;
   background-size: cover;
   min-height: 825px;
-}
+}*/
 
 @media (max-width: 1199px) {
   .bg-4,
@@ -3043,7 +3043,13 @@ button.li-btn:hover {
     min-height: 520px;
   }
 }
-
+.slider-content{
+    position : absolute;
+    top:50%;
+}
+.slide-back{
+    position:relative;
+}
 @media (max-width: 575px) {
   .bg-4,
   .bg-5 {

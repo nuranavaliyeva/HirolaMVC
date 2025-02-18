@@ -8,7 +8,8 @@ namespace HirolaMVC.Models
         public string Name { get; set; }
         public decimal Price { get; set; }
         public string Description { get; set; }
-        public string SKU { get; set; }
+        public string ProductCode { get; set; }
+        public bool ISAvailable { get; set; }
         //relational
         public int CategoryId { get; set; }
         public Category Category { get; set; }

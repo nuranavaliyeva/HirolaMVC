@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Nuran\\source\\repos\\HirolaMVC\\HirolaMVC\\HirolaMVC.csproj": {}
+    "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\HirolaMVC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Nuran\\source\\repos\\HirolaMVC\\HirolaMVC\\HirolaMVC.csproj": {
+    "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\HirolaMVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nuran\\source\\repos\\HirolaMVC\\HirolaMVC\\HirolaMVC.csproj",
+        "projectUniqueName": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\HirolaMVC.csproj",
         "projectName": "HirolaMVC",
-        "projectPath": "C:\\Users\\Nuran\\source\\repos\\HirolaMVC\\HirolaMVC\\HirolaMVC.csproj",
+        "projectPath": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\HirolaMVC.csproj",
         "packagesPath": "C:\\Users\\Nuran\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nuran\\source\\repos\\HirolaMVC\\HirolaMVC\\obj\\",
+        "outputPath": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
