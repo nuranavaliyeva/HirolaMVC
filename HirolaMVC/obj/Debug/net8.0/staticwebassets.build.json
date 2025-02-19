@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "sGQibqQojPmZy9qz7iGWoEB9b0r3skz8w5alLQilx4w=",
+  "Hash": "N1XpJSr9NrjGlXjkF3rrolLTAXCNGe304qqU38d/gz8=",
   "Source": "HirolaMVC",
   "BasePath": "_content/HirolaMVC",
   "Mode": "Default",
@@ -2639,6 +2639,25 @@
       "OriginalItemSpec": "wwwroot\\assets\\fonts\\lg.woff"
     },
     {
+      "Identity": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\wwwroot\\assets\\images\\4.webp",
+      "SourceId": "HirolaMVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\wwwroot\\",
+      "BasePath": "_content/HirolaMVC",
+      "RelativePath": "assets/images/4.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\4.webp"
+    },
+    {
       "Identity": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\wwwroot\\assets\\images\\479d682f-a531-43bb-a445-bd0b18d7ba8fScreenshot 2025-01-11 144326.png",
       "SourceId": "HirolaMVC",
       "SourceType": "Discovered",
@@ -2656,6 +2675,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\images\\479d682f-a531-43bb-a445-bd0b18d7ba8fScreenshot 2025-01-11 144326.png"
+    },
+    {
+      "Identity": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\wwwroot\\assets\\images\\5.webp",
+      "SourceId": "HirolaMVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\wwwroot\\",
+      "BasePath": "_content/HirolaMVC",
+      "RelativePath": "assets/images/5.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\5.webp"
     },
     {
       "Identity": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\wwwroot\\assets\\images\\about-us\\1.jpg",
@@ -3093,6 +3131,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\images\\footer\\payment\\1.png"
+    },
+    {
+      "Identity": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\wwwroot\\assets\\images\\i.webp",
+      "SourceId": "HirolaMVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\wwwroot\\",
+      "BasePath": "_content/HirolaMVC",
+      "RelativePath": "assets/images/i.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\i.webp"
     },
     {
       "Identity": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\wwwroot\\assets\\images\\menu\\bg\\1.jpg",

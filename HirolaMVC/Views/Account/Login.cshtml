@@ -1,0 +1,36 @@
+﻿@using HirolaMVC.ViewModels.Account
+@model LoginVM
+<div class="breadcrumb-area">
+    <img height="230" width="1920" src="~/assets/images/i.webp" />
+</div>
+<div class="col-sm-12 col-md-24 col-xs-12 col-lg-12" style="margin:auto">
+    <!-- Login Fors-->
+    <form method="post">
+        <div class="login-form">
+            <h4 class="login-title">Login</h4>
+            <div class="row">
+                <div class="text-danger" asp-validation-summary="ModelOnly">
+                </div>
+
+                <div class="col-md-12">
+                    <label asp-for="UsernameOrEmail">Username or Email</label>
+                    <input asp-for="UsernameOrEmail" placeholder="Username or Email" />
+                    <span class="text-danger" asp-validation-for="UsernameOrEmail"></span>
+                </div>
+
+                <div class="col-md-12">
+                    <label asp-for="Password">Password</label>
+                    <input asp-for="Password" placeholder="Password" />
+                    <span class="text-danger" asp-validation-for="Password"></span>
+                </div>
+                <div class="col-md-12 d-flex">
+                    <label asp-for="IsPersistent">Remember me</label>
+                    <input asp-for="IsPersistent" />
+                </div>
+                <div class="col-md-12">
+                    <button type="submit" class="hiraola-login_btn">Login</button>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>

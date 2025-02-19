@@ -553,8 +553,16 @@
       "PackagePath": "staticwebassets\\assets\\fonts\\lg.woff"
     },
     {
+      "Id": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\wwwroot\\assets\\images\\4.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\4.webp"
+    },
+    {
       "Id": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\wwwroot\\assets\\images\\479d682f-a531-43bb-a445-bd0b18d7ba8fScreenshot 2025-01-11 144326.png",
       "PackagePath": "staticwebassets\\assets\\images\\479d682f-a531-43bb-a445-bd0b18d7ba8fScreenshot 2025-01-11 144326.png"
+    },
+    {
+      "Id": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\wwwroot\\assets\\images\\5.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\5.webp"
     },
     {
       "Id": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\wwwroot\\assets\\images\\XXL_height.webp",
@@ -651,6 +659,10 @@
     {
       "Id": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\wwwroot\\assets\\images\\footer\\payment\\1.png",
       "PackagePath": "staticwebassets\\assets\\images\\footer\\payment\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\wwwroot\\assets\\images\\i.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\i.webp"
     },
     {
       "Id": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\wwwroot\\assets\\images\\menu\\bg\\1.jpg",
