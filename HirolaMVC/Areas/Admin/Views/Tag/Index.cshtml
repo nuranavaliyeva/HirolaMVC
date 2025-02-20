@@ -1,0 +1,60 @@
+﻿@using HirolaMVC.Models
+@model List<Tag>
+@{
+    var count = 0;
+}
+<div class="col-lg-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">Tags</h4>
+            <p class="card-description">
+                <a asp-action="create" class="btn btn-success">Create Tag</a>
+            </p>
+            <div class="table-responsive">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>
+                                No
+                            </th>
+                            <th>
+                                Name
+                            </th>
+                            <th>
+                                Product Count
+                            </th>
+                            <th>
+                                Settings
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (Tag tag in Model)
+                        {
+                            count++;
+                            <tr>
+                                <td>
+                                    @count
+                                </td>
+                                <td>
+                                    <p>@tag.Name</p>
+                                </td>
+                                <td>
+                                    <p>@tag.ProductTags.Count</p>
+                                </td>
+                                <td>
+                                    <a asp-action="delete" asp-route-id="@tag.Id" class="btn btn-danger">Delete</a>
+                                    <a asp-action="update" asp-route-id="@tag.Id" class="btn btn-warning">Update</a>
+                                   
+                                </td>
+
+                            </tr>
+
+                        }
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

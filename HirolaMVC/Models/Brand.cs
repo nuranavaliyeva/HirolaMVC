@@ -5,7 +5,7 @@ namespace HirolaMVC.Models
 {
     public class Brand:BaseEntity
     {
-        [MaxLength(50, ErrorMessage = "")]
+        [MaxLength(50, ErrorMessage = "fghjhkjkl")]
         public string Name { get; set; }
 
         //relational

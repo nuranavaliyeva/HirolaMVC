@@ -1,5 +1,7 @@
 using HirolaMVC.DAL;
 using HirolaMVC.Models;
+using HirolaMVC.Services.Implementations;
+using HirolaMVC.Services.Interfaces;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
@@ -10,6 +12,9 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<AppDbContext>(opt =>
     opt.UseSqlServer(builder.Configuration.GetConnectionString("Default"))
 );
+builder.Services.AddScoped<ILayoutService, LayoutService>();
+builder.Services.AddScoped<IBasketService, BasketService>();
+
 builder.Services.AddIdentity<AppUser, IdentityRole>(opt =>
 {
     opt.Password.RequiredLength = 8;

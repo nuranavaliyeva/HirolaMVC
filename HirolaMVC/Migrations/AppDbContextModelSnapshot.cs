@@ -140,7 +140,7 @@ namespace HirolaMVC.Migrations
                     b.HasIndex("Name")
                         .IsUnique();
 
-                    b.ToTable("Brand");
+                    b.ToTable("Brands");
                 });
 
             modelBuilder.Entity("HirolaMVC.Models.Category", b =>
@@ -214,20 +214,28 @@ namespace HirolaMVC.Migrations
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("datetime2");
 
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("bit");
+
+                    b.Property<string>("Phone")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<bool?>("Status")
                         .HasColumnType("bit");
 
-                    b.Property<decimal>("TotalPrice")
+                    b.Property<decimal>("Total")
                         .HasColumnType("decimal(18,2)");
 
                     b.HasKey("Id");
 
                     b.HasIndex("AppUserId");
 
-                    b.ToTable("Order");
+                    b.ToTable("Orders");
                 });
 
             modelBuilder.Entity("HirolaMVC.Models.OrderItem", b =>
@@ -250,13 +258,16 @@ namespace HirolaMVC.Migrations
                     b.Property<decimal>("Price")
                         .HasColumnType("decimal(6,2)");
 
+                    b.Property<decimal>("SubTotal")
+                        .HasColumnType("decimal(18,2)");
+
                     b.HasKey("AppUserId", "ProductId");
 
                     b.HasIndex("OrderId");
 
                     b.HasIndex("ProductId");
 
-                    b.ToTable("OrderItem");
+                    b.ToTable("OrderItems");
                 });
 
             modelBuilder.Entity("HirolaMVC.Models.Product", b =>
@@ -267,7 +278,7 @@ namespace HirolaMVC.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int?>("BrandId")
+                    b.Property<int>("BrandId")
                         .HasColumnType("int");
 
                     b.Property<int>("CategoryId")
@@ -374,6 +385,27 @@ namespace HirolaMVC.Migrations
                     b.HasIndex("TagId");
 
                     b.ToTable("ProductTags");
+                });
+
+            modelBuilder.Entity("HirolaMVC.Models.Setting", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Key")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Value")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Settings");
                 });
 
             modelBuilder.Entity("HirolaMVC.Models.Slide", b =>
@@ -577,7 +609,7 @@ namespace HirolaMVC.Migrations
             modelBuilder.Entity("HirolaMVC.Models.BasketItem", b =>
                 {
                     b.HasOne("HirolaMVC.Models.AppUser", "AppUser")
-                        .WithMany()
+                        .WithMany("BasketItems")
                         .HasForeignKey("AppUserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -629,15 +661,19 @@ namespace HirolaMVC.Migrations
 
             modelBuilder.Entity("HirolaMVC.Models.Product", b =>
                 {
-                    b.HasOne("HirolaMVC.Models.Brand", null)
+                    b.HasOne("HirolaMVC.Models.Brand", "Brand")
                         .WithMany("Products")
-                        .HasForeignKey("BrandId");
+                        .HasForeignKey("BrandId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.HasOne("HirolaMVC.Models.Category", "Category")
                         .WithMany("Products")
                         .HasForeignKey("CategoryId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+
+                    b.Navigation("Brand");
 
                     b.Navigation("Category");
                 });
@@ -740,6 +776,11 @@ namespace HirolaMVC.Migrations
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("HirolaMVC.Models.AppUser", b =>
+                {
+                    b.Navigation("BasketItems");
                 });
 
             modelBuilder.Entity("HirolaMVC.Models.Brand", b =>

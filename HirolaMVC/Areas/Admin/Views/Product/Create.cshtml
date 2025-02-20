@@ -1,0 +1,94 @@
+﻿@using HirolaMVC.Areas.ViewModels.Products
+@using HirolaMVC.Models
+@model CreateAdminProductVM
+
+<div class="col-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <p class="card-description">
+                Create Product
+            </p>
+            <form class="forms-sample" method="post" enctype="multipart/form-data">
+                <div class="form-group">
+                    <label asp-for="MainPhoto">Main Image</label>
+                    <input asp-for="MainPhoto" class="form-control" accept="image/*">
+                    <span class="text-danger" asp-validation-for="MainPhoto"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="HoverPhoto">Secondary Image</label>
+                    <input class="form-control" asp-for="HoverPhoto" accept="image/*">
+                    <span class="text-danger" asp-validation-for="HoverPhoto"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="AdditionalPhotos">Additional Images</label>
+                    <input class="form-control" asp-for="AdditionalPhotos" accept="image/*">
+                    <span class="text-danger" asp-validation-for="AdditionalPhotos"></span>
+                </div>
+                <div class="form-groupName">
+                    <label asp-for="Name">Name</label>
+                    <input asp-for="Name" class="form-control" placeholder="Name" >
+                    <span class="text-danger" asp-validation-for="Name"></span>
+
+                </div>
+                <div class="form-group">
+                    <label asp-for="Price" >Price</label>
+                    <input asp-for="Price" class="form-control" placeholder="Price">
+                    <span class="text-danger" asp-validation-for="Price"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="IsAvailable">Is Available</label>
+                    <input asp-for="IsAvailable">
+                    <span class="text-danger" asp-validation-for="IsAvailable"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="ProductCode">SKU Code</label>
+                    <input asp-for="ProductCode" class="form-control" placeholder="ProductCode">
+                    <span class="text-danger" asp-validation-for="ProductCode"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="CategoryId">Category</label>
+                    <select asp-for="CategoryId" class="form-control" asp-items="new SelectList(Model.Categories,nameof(Category.Id),nameof(Category.Name))">
+                       
+                        <option selected disabled value="">Choose Category</option>
+                    </select>
+                    <span class="text-danger" asp-validation-for="CategoryId"></span>
+
+                </div>
+                <div class="form-group">
+                    <label asp-for="BrandIds">Brand</label>
+                    <select asp-for="BrandIds" class="form-control" asp-items="new SelectList(Model.Brands,nameof(Brand.Id),nameof(Brand.Name))">
+
+                        <option selected disabled value="">Choose Brand</option>
+                    </select>
+                    <span class="text-danger" asp-validation-for="BrandIds"></span>
+
+                </div>
+                <div class="form-group">
+                    <label asp-for="TagIds">Tags</label>
+                    <select multiple asp-for="TagIds" class="form-control" asp-items="new SelectList(Model.Tags,nameof(Tag.Id),nameof(Tag.Name))">
+
+                    </select>
+                    <span class="text-danger" asp-validation-for="TagIds"></span>
+
+                </div>
+               
+                <div class="form-group">
+                    <label asp-for="ColorIds">Colors</label>
+                    <select multiple asp-for="ColorIds" class="form-control" asp-items="new SelectList(Model.Colors,nameof(Color.Id),nameof(Color.Name))">
+                    </select>
+                    <span class="text-danger" asp-validation-for="ColorIds"></span>
+
+                </div>
+                <div class="form-group">
+                    <label asp-for="Description">Description</label>
+                    <textarea asp-for="Description" class="form-control" placeholder="Description"></textarea>
+                    <span class="text-danger" asp-validation-for="Description"></span>
+                </div>
+
+
+                <button type="submit" class="btn btn-primary me-2">Submit</button>
+                <button asp-action="index" class="btn btn-light">Cancel</button>
+            </form>
+        </div>
+    </div>
+</div>

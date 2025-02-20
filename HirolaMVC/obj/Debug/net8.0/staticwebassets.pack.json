@@ -553,16 +553,24 @@
       "PackagePath": "staticwebassets\\assets\\fonts\\lg.woff"
     },
     {
+      "Id": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\wwwroot\\assets\\images\\0dd8bd1f-b0fc-4799-8766-c16c5496f2af4.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\0dd8bd1f-b0fc-4799-8766-c16c5496f2af4.webp"
+    },
+    {
+      "Id": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\wwwroot\\assets\\images\\1.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\1.webp"
+    },
+    {
       "Id": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\wwwroot\\assets\\images\\4.webp",
       "PackagePath": "staticwebassets\\assets\\images\\4.webp"
     },
     {
-      "Id": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\wwwroot\\assets\\images\\479d682f-a531-43bb-a445-bd0b18d7ba8fScreenshot 2025-01-11 144326.png",
-      "PackagePath": "staticwebassets\\assets\\images\\479d682f-a531-43bb-a445-bd0b18d7ba8fScreenshot 2025-01-11 144326.png"
-    },
-    {
       "Id": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\wwwroot\\assets\\images\\5.webp",
       "PackagePath": "staticwebassets\\assets\\images\\5.webp"
+    },
+    {
+      "Id": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\wwwroot\\assets\\images\\6ebaaf0f-2678-4b82-b9b2-2c6fff068898XXL_height.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\6ebaaf0f-2678-4b82-b9b2-2c6fff068898XXL_height.webp"
     },
     {
       "Id": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\wwwroot\\assets\\images\\XXL_height.webp",
@@ -645,8 +653,12 @@
       "PackagePath": "staticwebassets\\assets\\images\\breadcrumb\\1.jpg"
     },
     {
-      "Id": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\wwwroot\\assets\\images\\d7423cc3-5f99-468d-bfec-0386eafd7272Screenshot 2025-02-05 191744.png",
-      "PackagePath": "staticwebassets\\assets\\images\\d7423cc3-5f99-468d-bfec-0386eafd7272Screenshot 2025-02-05 191744.png"
+      "Id": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\wwwroot\\assets\\images\\d023df12-e776-4224-94f6-1697dbd762305.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\d023df12-e776-4224-94f6-1697dbd762305.webp"
+    },
+    {
+      "Id": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\wwwroot\\assets\\images\\d92f30a5-24fc-4f20-ae24-415efe2e54b34.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\d92f30a5-24fc-4f20-ae24-415efe2e54b34.webp"
     },
     {
       "Id": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\wwwroot\\assets\\images\\favicon.ico",

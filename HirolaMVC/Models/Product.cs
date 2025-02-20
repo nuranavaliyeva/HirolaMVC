@@ -13,6 +13,8 @@ namespace HirolaMVC.Models
         //relational
         public int CategoryId { get; set; }
         public Category Category { get; set; }
+        public int BrandId { get; set; }
+        public Brand Brand { get; set; }
         public List<ProductImage> ProductImages { get; set; }
         public List<ProductTag> ProductTags { get; set; }
         public List<ProductColor> ProductColors { get; set; }

@@ -8,8 +8,7 @@ namespace HirolaMVC.Configurations
     {
         public void Configure(EntityTypeBuilder<Order> builder)
         {
-            builder.Property(o=>o.Address).IsRequired().HasMaxLength(50);
-            builder.Property(o=>o.TotalPrice).IsRequired();
+            builder.Property(o => o.Address).IsRequired().HasMaxLength(50);
         }
     }
 }
