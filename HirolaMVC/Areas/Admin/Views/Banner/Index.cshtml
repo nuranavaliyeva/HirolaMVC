@@ -1,0 +1,68 @@
+﻿@using HirolaMVC.Models
+
+@model List<Banner>
+@{
+    int count = 0;
+}
+<div class="row">
+
+    <div class="col-lg-12 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">Banner Table</h4>
+
+                <div class="table-responsive">
+                    <a asp-action="create" class="btn btn-success ">Create Banner</a>
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>
+                                    No
+                                </th>
+                                <th>
+                                    Image
+                                </th>
+                                <th>
+                                    Title
+                                </th>
+                                <th>
+                                    Order
+                                </th>
+                                <th>
+                                    Settings
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (Banner banner in Model)
+                            {
+                                count++;
+                                <tr>
+                                    <td>
+                                        @count
+                                    </td>
+                                    <td>
+                                        <img src="~/assets/images/@banner.Image"></img>
+                                    </td>
+                                    <td>
+                                        <p>@banner.Title</p>
+                                    </td>
+                                    <td>
+                                        <p>@banner.Order</p>
+                                    </td>
+                                    <td>
+                                        <a asp-action="update" asp-route-id="@banner.Id" class="btn btn-warning"><i class="mdi mdi-grease-pencil"></i></a>
+                                        <a asp-action="delete" asp-route-id="@banner.Id" class="btn btn-danger"><i class="mdi mdi-delete"></i></a>
+                                        
+                                    </td>
+
+                                </tr>
+                            }
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

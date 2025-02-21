@@ -105,7 +105,7 @@ namespace HirolaMVC.Areas.Admin.Controllers
                     return View(SlideVM);
                 }
                 string fileName = await SlideVM.Photo.CreateFileAsync(_env.WebRootPath, "assets", "images");
-                existed.Image.DeleteFile(_env.WebRootPath, "assets", "images", "website-images");
+                existed.Image.DeleteFile(_env.WebRootPath, "assets", "images");
                 existed.Image = fileName;
             }
             existed.Title = SlideVM.Title;

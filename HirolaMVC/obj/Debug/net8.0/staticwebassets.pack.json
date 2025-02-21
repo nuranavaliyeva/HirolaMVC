@@ -553,12 +553,44 @@
       "PackagePath": "staticwebassets\\assets\\fonts\\lg.woff"
     },
     {
+      "Id": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\wwwroot\\assets\\images\\003c02c4-6ae9-451b-9248-cb8d5b5426be3753f1427fb196494aae79ec3cbfe98cd934a77c_original.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\003c02c4-6ae9-451b-9248-cb8d5b5426be3753f1427fb196494aae79ec3cbfe98cd934a77c_original.jpeg"
+    },
+    {
       "Id": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\wwwroot\\assets\\images\\0dd8bd1f-b0fc-4799-8766-c16c5496f2af4.webp",
       "PackagePath": "staticwebassets\\assets\\images\\0dd8bd1f-b0fc-4799-8766-c16c5496f2af4.webp"
     },
     {
+      "Id": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\wwwroot\\assets\\images\\1-9.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\1-9.webp"
+    },
+    {
       "Id": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\wwwroot\\assets\\images\\1.webp",
       "PackagePath": "staticwebassets\\assets\\images\\1.webp"
+    },
+    {
+      "Id": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\wwwroot\\assets\\images\\125f0362-ff28-4830-98a0-572a33b99fcai (11).webp",
+      "PackagePath": "staticwebassets\\assets\\images\\125f0362-ff28-4830-98a0-572a33b99fcai (11).webp"
+    },
+    {
+      "Id": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\wwwroot\\assets\\images\\297b4fe6-e5cd-4a40-a235-126f12a277adi (16).webp",
+      "PackagePath": "staticwebassets\\assets\\images\\297b4fe6-e5cd-4a40-a235-126f12a277adi (16).webp"
+    },
+    {
+      "Id": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\wwwroot\\assets\\images\\30c6f46a-f763-4670-942c-2a73b58dc9673753f1427fb196494aae79ec3cbfe98cd934a77c_original.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\30c6f46a-f763-4670-942c-2a73b58dc9673753f1427fb196494aae79ec3cbfe98cd934a77c_original.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\wwwroot\\assets\\images\\3753f1427fb196494aae79ec3cbfe98cd934a77c_original.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\3753f1427fb196494aae79ec3cbfe98cd934a77c_original.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\wwwroot\\assets\\images\\38cf5b78-7412-47a6-b2cc-c680e5871bd3i (11).webp",
+      "PackagePath": "staticwebassets\\assets\\images\\38cf5b78-7412-47a6-b2cc-c680e5871bd3i (11).webp"
+    },
+    {
+      "Id": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\wwwroot\\assets\\images\\3f2eef7a-323e-447f-838c-0e0dae7f5ad9XXL_height.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\3f2eef7a-323e-447f-838c-0e0dae7f5ad9XXL_height.webp"
     },
     {
       "Id": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\wwwroot\\assets\\images\\4.webp",
@@ -569,8 +601,36 @@
       "PackagePath": "staticwebassets\\assets\\images\\5.webp"
     },
     {
+      "Id": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\wwwroot\\assets\\images\\51abd8a6-d33d-4a86-854b-eaa56cb97569i (11).webp",
+      "PackagePath": "staticwebassets\\assets\\images\\51abd8a6-d33d-4a86-854b-eaa56cb97569i (11).webp"
+    },
+    {
+      "Id": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\wwwroot\\assets\\images\\54062dfd-ec79-4112-b81c-e9e82c092654i (21).webp",
+      "PackagePath": "staticwebassets\\assets\\images\\54062dfd-ec79-4112-b81c-e9e82c092654i (21).webp"
+    },
+    {
+      "Id": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\wwwroot\\assets\\images\\6a4afa53-2720-4ab4-928f-bc9d2c3d14191-9.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\6a4afa53-2720-4ab4-928f-bc9d2c3d14191-9.webp"
+    },
+    {
       "Id": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\wwwroot\\assets\\images\\6ebaaf0f-2678-4b82-b9b2-2c6fff068898XXL_height.webp",
       "PackagePath": "staticwebassets\\assets\\images\\6ebaaf0f-2678-4b82-b9b2-2c6fff068898XXL_height.webp"
+    },
+    {
+      "Id": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\wwwroot\\assets\\images\\8cca2278-a09e-4cc5-b2f0-b8e350c4851e1-9.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\8cca2278-a09e-4cc5-b2f0-b8e350c4851e1-9.webp"
+    },
+    {
+      "Id": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\wwwroot\\assets\\images\\9533ccfe-e2d6-4e8a-8ab2-59a468fe28061-9.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\9533ccfe-e2d6-4e8a-8ab2-59a468fe28061-9.webp"
+    },
+    {
+      "Id": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\wwwroot\\assets\\images\\96f041c4-4f35-45e8-b1f0-81e276bfba3ai (13).webp",
+      "PackagePath": "staticwebassets\\assets\\images\\96f041c4-4f35-45e8-b1f0-81e276bfba3ai (13).webp"
+    },
+    {
+      "Id": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\wwwroot\\assets\\images\\97cf6f73-484f-4712-ba4d-6d0688f2e016i (16).webp",
+      "PackagePath": "staticwebassets\\assets\\images\\97cf6f73-484f-4712-ba4d-6d0688f2e016i (16).webp"
     },
     {
       "Id": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\wwwroot\\assets\\images\\XXL_height.webp",
@@ -653,12 +713,32 @@
       "PackagePath": "staticwebassets\\assets\\images\\breadcrumb\\1.jpg"
     },
     {
+      "Id": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\wwwroot\\assets\\images\\c8bf21fe-f175-40f3-aa8a-54dd8bd71533i (16).webp",
+      "PackagePath": "staticwebassets\\assets\\images\\c8bf21fe-f175-40f3-aa8a-54dd8bd71533i (16).webp"
+    },
+    {
       "Id": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\wwwroot\\assets\\images\\d023df12-e776-4224-94f6-1697dbd762305.webp",
       "PackagePath": "staticwebassets\\assets\\images\\d023df12-e776-4224-94f6-1697dbd762305.webp"
     },
     {
       "Id": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\wwwroot\\assets\\images\\d92f30a5-24fc-4f20-ae24-415efe2e54b34.webp",
       "PackagePath": "staticwebassets\\assets\\images\\d92f30a5-24fc-4f20-ae24-415efe2e54b34.webp"
+    },
+    {
+      "Id": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\wwwroot\\assets\\images\\dd273766-60d6-4032-b01c-8b4454a1ef4bi (13).webp",
+      "PackagePath": "staticwebassets\\assets\\images\\dd273766-60d6-4032-b01c-8b4454a1ef4bi (13).webp"
+    },
+    {
+      "Id": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\wwwroot\\assets\\images\\df123b62-0a98-47e9-a3b4-5d4d9c31e152XXL_height.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\df123b62-0a98-47e9-a3b4-5d4d9c31e152XXL_height.webp"
+    },
+    {
+      "Id": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\wwwroot\\assets\\images\\e764926a-530f-41b6-96d8-30fbf89694363753f1427fb196494aae79ec3cbfe98cd934a77c_original.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\e764926a-530f-41b6-96d8-30fbf89694363753f1427fb196494aae79ec3cbfe98cd934a77c_original.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\wwwroot\\assets\\images\\eb8be0a8-3edc-495b-80d3-6e49146fdc50i (13).webp",
+      "PackagePath": "staticwebassets\\assets\\images\\eb8be0a8-3edc-495b-80d3-6e49146fdc50i (13).webp"
     },
     {
       "Id": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\wwwroot\\assets\\images\\favicon.ico",
@@ -671,6 +751,90 @@
     {
       "Id": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\wwwroot\\assets\\images\\footer\\payment\\1.png",
       "PackagePath": "staticwebassets\\assets\\images\\footer\\payment\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\wwwroot\\assets\\images\\i (1).webp",
+      "PackagePath": "staticwebassets\\assets\\images\\i (1).webp"
+    },
+    {
+      "Id": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\wwwroot\\assets\\images\\i (10).webp",
+      "PackagePath": "staticwebassets\\assets\\images\\i (10).webp"
+    },
+    {
+      "Id": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\wwwroot\\assets\\images\\i (11).webp",
+      "PackagePath": "staticwebassets\\assets\\images\\i (11).webp"
+    },
+    {
+      "Id": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\wwwroot\\assets\\images\\i (12).webp",
+      "PackagePath": "staticwebassets\\assets\\images\\i (12).webp"
+    },
+    {
+      "Id": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\wwwroot\\assets\\images\\i (13).webp",
+      "PackagePath": "staticwebassets\\assets\\images\\i (13).webp"
+    },
+    {
+      "Id": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\wwwroot\\assets\\images\\i (14).webp",
+      "PackagePath": "staticwebassets\\assets\\images\\i (14).webp"
+    },
+    {
+      "Id": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\wwwroot\\assets\\images\\i (15).webp",
+      "PackagePath": "staticwebassets\\assets\\images\\i (15).webp"
+    },
+    {
+      "Id": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\wwwroot\\assets\\images\\i (16).webp",
+      "PackagePath": "staticwebassets\\assets\\images\\i (16).webp"
+    },
+    {
+      "Id": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\wwwroot\\assets\\images\\i (17).webp",
+      "PackagePath": "staticwebassets\\assets\\images\\i (17).webp"
+    },
+    {
+      "Id": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\wwwroot\\assets\\images\\i (18).webp",
+      "PackagePath": "staticwebassets\\assets\\images\\i (18).webp"
+    },
+    {
+      "Id": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\wwwroot\\assets\\images\\i (19).webp",
+      "PackagePath": "staticwebassets\\assets\\images\\i (19).webp"
+    },
+    {
+      "Id": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\wwwroot\\assets\\images\\i (2).webp",
+      "PackagePath": "staticwebassets\\assets\\images\\i (2).webp"
+    },
+    {
+      "Id": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\wwwroot\\assets\\images\\i (20).webp",
+      "PackagePath": "staticwebassets\\assets\\images\\i (20).webp"
+    },
+    {
+      "Id": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\wwwroot\\assets\\images\\i (21).webp",
+      "PackagePath": "staticwebassets\\assets\\images\\i (21).webp"
+    },
+    {
+      "Id": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\wwwroot\\assets\\images\\i (3).webp",
+      "PackagePath": "staticwebassets\\assets\\images\\i (3).webp"
+    },
+    {
+      "Id": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\wwwroot\\assets\\images\\i (4).webp",
+      "PackagePath": "staticwebassets\\assets\\images\\i (4).webp"
+    },
+    {
+      "Id": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\wwwroot\\assets\\images\\i (5).webp",
+      "PackagePath": "staticwebassets\\assets\\images\\i (5).webp"
+    },
+    {
+      "Id": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\wwwroot\\assets\\images\\i (6).webp",
+      "PackagePath": "staticwebassets\\assets\\images\\i (6).webp"
+    },
+    {
+      "Id": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\wwwroot\\assets\\images\\i (7).webp",
+      "PackagePath": "staticwebassets\\assets\\images\\i (7).webp"
+    },
+    {
+      "Id": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\wwwroot\\assets\\images\\i (8).webp",
+      "PackagePath": "staticwebassets\\assets\\images\\i (8).webp"
+    },
+    {
+      "Id": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\wwwroot\\assets\\images\\i (9).webp",
+      "PackagePath": "staticwebassets\\assets\\images\\i (9).webp"
     },
     {
       "Id": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\wwwroot\\assets\\images\\i.webp",
@@ -695,6 +859,26 @@
     {
       "Id": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\wwwroot\\assets\\images\\menu\\logo\\2.png",
       "PackagePath": "staticwebassets\\assets\\images\\menu\\logo\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\wwwroot\\assets\\images\\paypal.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\paypal.webp"
+    },
+    {
+      "Id": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\wwwroot\\assets\\images\\photo1.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\photo1.webp"
+    },
+    {
+      "Id": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\wwwroot\\assets\\images\\photo2.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\photo2.webp"
+    },
+    {
+      "Id": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\wwwroot\\assets\\images\\photo3.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\photo3.webp"
+    },
+    {
+      "Id": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\wwwroot\\assets\\images\\photo4.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\photo4.webp"
     },
     {
       "Id": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\wwwroot\\assets\\images\\product\\medium-size\\1-1.jpg",
@@ -783,6 +967,14 @@
     {
       "Id": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\wwwroot\\assets\\images\\product\\small-size\\2-6.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\product\\small-size\\2-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\wwwroot\\assets\\images\\search (1).htm",
+      "PackagePath": "staticwebassets\\assets\\images\\search (1).htm"
+    },
+    {
+      "Id": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\wwwroot\\assets\\images\\search.htm",
+      "PackagePath": "staticwebassets\\assets\\images\\search.htm"
     },
     {
       "Id": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\wwwroot\\assets\\images\\shipping-icon\\1.png",

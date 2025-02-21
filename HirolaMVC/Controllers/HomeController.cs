@@ -1,9 +1,7 @@
-
 using HirolaMVC.DAL;
 using HirolaMVC.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using System.Diagnostics;
 
 namespace HirolaMVC.Controllers
 {
@@ -16,14 +14,21 @@ namespace HirolaMVC.Controllers
 
         }
 
-        public async Task< IActionResult >Index()
+        public async Task<IActionResult> Index()
         {
+            
             HomeVM homeVM = new HomeVM
             {
+                Products = await _context.Products.Take(8).Include(p => p.ProductImages.Where(pi => pi.IsPrimary != null)).ToListAsync(),
                 Slides = await _context.Slides
                 .OrderBy(s => s.Order)
                 .Take(2)
                 .ToListAsync(),
+                Banners= await _context.Banners
+                .OrderBy(s => s.Order)
+                .Take(2)
+                .ToListAsync()
+                ,
 
                 NewProducts = await _context.Products
                 .Take(8)

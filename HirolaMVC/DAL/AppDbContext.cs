@@ -24,6 +24,7 @@ namespace HirolaMVC.DAL
         public DbSet<ProductColor> ProductColors { get; set; }
         public DbSet<BasketItem> BasketItems { get; set; }
 
+        public DbSet<Banner> Banners { get; set; }
         protected override void OnModelCreating(ModelBuilder builder)
         {
             builder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
