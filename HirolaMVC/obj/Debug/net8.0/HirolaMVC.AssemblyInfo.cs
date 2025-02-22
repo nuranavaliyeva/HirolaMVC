@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HirolaMVC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+185cc3fd39e5e90235712f5494cdfd55fd23db20")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+33b642a7512c93a70a4b1f120c34f847f9b27385")]
 [assembly: System.Reflection.AssemblyProductAttribute("HirolaMVC")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HirolaMVC")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

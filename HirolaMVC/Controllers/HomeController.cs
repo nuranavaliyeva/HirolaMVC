@@ -20,10 +20,12 @@ namespace HirolaMVC.Controllers
             HomeVM homeVM = new HomeVM
             {
                 Products = await _context.Products.Take(8).Include(p => p.ProductImages.Where(pi => pi.IsPrimary != null)).ToListAsync(),
+
                 Slides = await _context.Slides
                 .OrderBy(s => s.Order)
                 .Take(2)
                 .ToListAsync(),
+
                 Banners= await _context.Banners
                 .OrderBy(s => s.Order)
                 .Take(2)

@@ -120,7 +120,7 @@
                                    
                                     <div class="add-actions">
                                         <ul>
-                                            <li><a class="hiraola-add_cart" href="cart.html" data-toggle="tooltip" data-placement="top" title="Add To Cart"><i class="ion-bag"></i></a></li>
+                                            <li><a class="hiraola-add_cart" asp-action="addbasket" asp-controller="basket" asp-route-id="@product.Id" data-toggle="tooltip" data-placement="top" title="Add To Cart"><i class="ion-bag"></i></a></li>
                                            
                                             <li class="quick-view-btn" data-toggle="modal" data-target="#exampleModalCenter"><a href="javascript:void(0)" data-toggle="tooltip" data-placement="top" title="Quick View"><i class="ion-eye"></i></a></li>
                                         </ul>
