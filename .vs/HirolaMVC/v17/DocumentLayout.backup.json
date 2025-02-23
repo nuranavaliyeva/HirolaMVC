@@ -3,48 +3,60 @@
   "WorkspaceRootPath": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{ADFACB02-BC80-4CC5-A139-BFEBAC202FA1}|HirolaMVC\\HirolaMVC.csproj|c:\\users\\nuran\\desktop\\hirolamvc\\hirolamvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{ADFACB02-BC80-4CC5-A139-BFEBAC202FA1}|HirolaMVC\\HirolaMVC.csproj|solutionrelative:hirolamvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{ADFACB02-BC80-4CC5-A139-BFEBAC202FA1}|HirolaMVC\\HirolaMVC.csproj|c:\\users\\nuran\\desktop\\hirolamvc\\hirolamvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{ADFACB02-BC80-4CC5-A139-BFEBAC202FA1}|HirolaMVC\\HirolaMVC.csproj|solutionrelative:hirolamvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ADFACB02-BC80-4CC5-A139-BFEBAC202FA1}|HirolaMVC\\HirolaMVC.csproj|c:\\users\\nuran\\desktop\\hirolamvc\\hirolamvc\\views\\basket\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{ADFACB02-BC80-4CC5-A139-BFEBAC202FA1}|HirolaMVC\\HirolaMVC.csproj|solutionrelative:hirolamvc\\views\\basket\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{ADFACB02-BC80-4CC5-A139-BFEBAC202FA1}|HirolaMVC\\HirolaMVC.csproj|c:\\users\\nuran\\desktop\\hirolamvc\\hirolamvc\\views\\shop\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ADFACB02-BC80-4CC5-A139-BFEBAC202FA1}|HirolaMVC\\HirolaMVC.csproj|solutionrelative:hirolamvc\\views\\shop\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ADFACB02-BC80-4CC5-A139-BFEBAC202FA1}|HirolaMVC\\HirolaMVC.csproj|c:\\users\\nuran\\desktop\\hirolamvc\\hirolamvc\\views\\shared\\components\\footer\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{ADFACB02-BC80-4CC5-A139-BFEBAC202FA1}|HirolaMVC\\HirolaMVC.csproj|solutionrelative:hirolamvc\\views\\shared\\components\\footer\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{ADFACB02-BC80-4CC5-A139-BFEBAC202FA1}|HirolaMVC\\HirolaMVC.csproj|c:\\users\\nuran\\desktop\\hirolamvc\\hirolamvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ADFACB02-BC80-4CC5-A139-BFEBAC202FA1}|HirolaMVC\\HirolaMVC.csproj|solutionrelative:hirolamvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ADFACB02-BC80-4CC5-A139-BFEBAC202FA1}|HirolaMVC\\HirolaMVC.csproj|c:\\users\\nuran\\desktop\\hirolamvc\\hirolamvc\\views\\shared\\productpartialview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{ADFACB02-BC80-4CC5-A139-BFEBAC202FA1}|HirolaMVC\\HirolaMVC.csproj|solutionrelative:hirolamvc\\views\\shared\\productpartialview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{ADFACB02-BC80-4CC5-A139-BFEBAC202FA1}|HirolaMVC\\HirolaMVC.csproj|c:\\users\\nuran\\desktop\\hirolamvc\\hirolamvc\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ADFACB02-BC80-4CC5-A139-BFEBAC202FA1}|HirolaMVC\\HirolaMVC.csproj|solutionrelative:hirolamvc\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ADFACB02-BC80-4CC5-A139-BFEBAC202FA1}|HirolaMVC\\HirolaMVC.csproj|c:\\users\\nuran\\desktop\\hirolamvc\\hirolamvc\\views\\shared\\basketpartialview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{ADFACB02-BC80-4CC5-A139-BFEBAC202FA1}|HirolaMVC\\HirolaMVC.csproj|solutionrelative:hirolamvc\\views\\shared\\basketpartialview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{ADFACB02-BC80-4CC5-A139-BFEBAC202FA1}|HirolaMVC\\HirolaMVC.csproj|c:\\users\\nuran\\desktop\\hirolamvc\\hirolamvc\\views\\basket\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ADFACB02-BC80-4CC5-A139-BFEBAC202FA1}|HirolaMVC\\HirolaMVC.csproj|solutionrelative:hirolamvc\\views\\basket\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ADFACB02-BC80-4CC5-A139-BFEBAC202FA1}|HirolaMVC\\HirolaMVC.csproj|c:\\users\\nuran\\desktop\\hirolamvc\\hirolamvc\\views\\shared\\components\\product\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{ADFACB02-BC80-4CC5-A139-BFEBAC202FA1}|HirolaMVC\\HirolaMVC.csproj|solutionrelative:hirolamvc\\views\\shared\\components\\product\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{ADFACB02-BC80-4CC5-A139-BFEBAC202FA1}|HirolaMVC\\HirolaMVC.csproj|c:\\users\\nuran\\desktop\\hirolamvc\\hirolamvc\\configurations\\orderitemconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ADFACB02-BC80-4CC5-A139-BFEBAC202FA1}|HirolaMVC\\HirolaMVC.csproj|solutionrelative:hirolamvc\\configurations\\orderitemconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ADFACB02-BC80-4CC5-A139-BFEBAC202FA1}|HirolaMVC\\HirolaMVC.csproj|c:\\users\\nuran\\desktop\\hirolamvc\\hirolamvc\\controllers\\basketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ADFACB02-BC80-4CC5-A139-BFEBAC202FA1}|HirolaMVC\\HirolaMVC.csproj|solutionrelative:hirolamvc\\controllers\\basketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ADFACB02-BC80-4CC5-A139-BFEBAC202FA1}|HirolaMVC\\HirolaMVC.csproj|c:\\users\\nuran\\desktop\\hirolamvc\\hirolamvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ADFACB02-BC80-4CC5-A139-BFEBAC202FA1}|HirolaMVC\\HirolaMVC.csproj|solutionrelative:hirolamvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\Migrations\\20250223061517_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:HirolaMVC\\Migrations\\20250223061517_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ADFACB02-BC80-4CC5-A139-BFEBAC202FA1}|HirolaMVC\\HirolaMVC.csproj|c:\\users\\nuran\\desktop\\hirolamvc\\hirolamvc\\views\\shop\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{ADFACB02-BC80-4CC5-A139-BFEBAC202FA1}|HirolaMVC\\HirolaMVC.csproj|solutionrelative:hirolamvc\\views\\shop\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\Migrations\\20250223061204_mig1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:HirolaMVC\\Migrations\\20250223061204_mig1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ADFACB02-BC80-4CC5-A139-BFEBAC202FA1}|HirolaMVC\\HirolaMVC.csproj|c:\\users\\nuran\\desktop\\hirolamvc\\hirolamvc\\controllers\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ADFACB02-BC80-4CC5-A139-BFEBAC202FA1}|HirolaMVC\\HirolaMVC.csproj|solutionrelative:hirolamvc\\controllers\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\Migrations\\20250223060528_mig1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:HirolaMVC\\Migrations\\20250223060528_mig1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADFACB02-BC80-4CC5-A139-BFEBAC202FA1}|HirolaMVC\\HirolaMVC.csproj|c:\\users\\nuran\\desktop\\hirolamvc\\hirolamvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{ADFACB02-BC80-4CC5-A139-BFEBAC202FA1}|HirolaMVC\\HirolaMVC.csproj|solutionrelative:hirolamvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\Migrations\\20250223055317_djivj.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:HirolaMVC\\Migrations\\20250223055317_djivj.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\Migrations\\20250223053908_modified.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:HirolaMVC\\Migrations\\20250223053908_modified.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADFACB02-BC80-4CC5-A139-BFEBAC202FA1}|HirolaMVC\\HirolaMVC.csproj|c:\\users\\nuran\\desktop\\hirolamvc\\hirolamvc\\migrations\\20250223064621_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ADFACB02-BC80-4CC5-A139-BFEBAC202FA1}|HirolaMVC\\HirolaMVC.csproj|solutionrelative:hirolamvc\\migrations\\20250223064621_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,149 +66,180 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "HirolaMVC\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "HirolaMVC\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-22T16:32:23.102Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "ProductPartialView.cshtml",
-              "DocumentMoniker": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\Views\\Shared\\ProductPartialView.cshtml",
-              "RelativeDocumentMoniker": "HirolaMVC\\Views\\Shared\\ProductPartialView.cshtml",
-              "ToolTip": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\Views\\Shared\\ProductPartialView.cshtml",
-              "RelativeToolTip": "HirolaMVC\\Views\\Shared\\ProductPartialView.cshtml",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAAA4AAAB6AAAAAAAAAA==",
+              "Title": "Checkout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\Views\\Basket\\Checkout.cshtml",
+              "RelativeDocumentMoniker": "HirolaMVC\\Views\\Basket\\Checkout.cshtml",
+              "ToolTip": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\Views\\Basket\\Checkout.cshtml",
+              "RelativeToolTip": "HirolaMVC\\Views\\Basket\\Checkout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-22T15:18:32.865Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "BasketPartialView.cshtml",
-              "DocumentMoniker": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\Views\\Shared\\BasketPartialView.cshtml",
-              "RelativeDocumentMoniker": "HirolaMVC\\Views\\Shared\\BasketPartialView.cshtml",
-              "ToolTip": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\Views\\Shared\\BasketPartialView.cshtml",
-              "RelativeToolTip": "HirolaMVC\\Views\\Shared\\BasketPartialView.cshtml",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAAACUAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-22T15:18:09.951Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Default.cshtml",
-              "DocumentMoniker": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\Views\\Shared\\Components\\Product\\Default.cshtml",
-              "RelativeDocumentMoniker": "HirolaMVC\\Views\\Shared\\Components\\Product\\Default.cshtml",
-              "ToolTip": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\Views\\Shared\\Components\\Product\\Default.cshtml",
-              "RelativeToolTip": "HirolaMVC\\Views\\Shared\\Components\\Product\\Default.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-22T15:17:16.874Z",
+              "WhenOpened": "2025-02-23T17:58:43.325Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Default.cshtml",
-              "DocumentMoniker": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\Views\\Shared\\Components\\Footer\\Default.cshtml",
-              "RelativeDocumentMoniker": "HirolaMVC\\Views\\Shared\\Components\\Footer\\Default.cshtml",
-              "ToolTip": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\Views\\Shared\\Components\\Footer\\Default.cshtml",
-              "RelativeToolTip": "HirolaMVC\\Views\\Shared\\Components\\Footer\\Default.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-22T15:17:06.269Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "BasketController.cs",
-              "DocumentMoniker": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\Controllers\\BasketController.cs",
-              "RelativeDocumentMoniker": "HirolaMVC\\Controllers\\BasketController.cs",
-              "ToolTip": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\Controllers\\BasketController.cs",
-              "RelativeToolTip": "HirolaMVC\\Controllers\\BasketController.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAA3wCIAAAAAAAAAAAAAAA==",
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "HirolaMVC\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "HirolaMVC\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAowGoAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-22T14:23:26.238Z",
+              "WhenOpened": "2025-02-23T06:24:13.012Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "HirolaMVC\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\Views\\Home\\Index.cshtml*",
-              "RelativeToolTip": "HirolaMVC\\Views\\Home\\Index.cshtml*",
-              "ViewState": "AgIAAG0AAAAAAAAAAAAAAHUAAAC8AAAAAAAAAA==",
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "HirolaMVC\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "HirolaMVC\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAALkAAAAAAAAAAAAQwM8AAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-22T14:17:25.876Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\Views\\Basket\\Index.cshtml",
-              "RelativeDocumentMoniker": "HirolaMVC\\Views\\Basket\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\Views\\Basket\\Index.cshtml",
-              "RelativeToolTip": "HirolaMVC\\Views\\Basket\\Index.cshtml",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAAB0AAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-22T13:14:12.573Z",
+              "WhenOpened": "2025-02-23T04:34:15.219Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "HirolaMVC\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "HirolaMVC\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwBMAAAASAAAAAAAAAA==",
+              "Title": "20250223061204_mig1.cs",
+              "DocumentMoniker": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\Migrations\\20250223061204_mig1.cs",
+              "RelativeDocumentMoniker": "HirolaMVC\\Migrations\\20250223061204_mig1.cs",
+              "ToolTip": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\Migrations\\20250223061204_mig1.cs",
+              "RelativeToolTip": "HirolaMVC\\Migrations\\20250223061204_mig1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-22T10:14:32.403Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-23T06:12:05.133Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "Detail.cshtml",
-              "DocumentMoniker": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\Views\\Shop\\Detail.cshtml",
-              "RelativeDocumentMoniker": "HirolaMVC\\Views\\Shop\\Detail.cshtml",
-              "ToolTip": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\Views\\Shop\\Detail.cshtml",
-              "RelativeToolTip": "HirolaMVC\\Views\\Shop\\Detail.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-22T09:40:40.12Z",
-              "EditorCaption": ""
+              "Title": "20250223060528_mig1.cs",
+              "DocumentMoniker": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\Migrations\\20250223060528_mig1.cs",
+              "RelativeDocumentMoniker": "HirolaMVC\\Migrations\\20250223060528_mig1.cs",
+              "ToolTip": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\Migrations\\20250223060528_mig1.cs",
+              "RelativeToolTip": "HirolaMVC\\Migrations\\20250223060528_mig1.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T06:05:29.128Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "ShopController.cs",
-              "DocumentMoniker": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\Controllers\\ShopController.cs",
-              "RelativeDocumentMoniker": "HirolaMVC\\Controllers\\ShopController.cs",
-              "ToolTip": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\Controllers\\ShopController.cs",
-              "RelativeToolTip": "HirolaMVC\\Controllers\\ShopController.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAIwF4AAAAkAAAAAAAAAA==",
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\appsettings.json",
+              "RelativeDocumentMoniker": "HirolaMVC\\appsettings.json",
+              "ToolTip": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\appsettings.json",
+              "RelativeToolTip": "HirolaMVC\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-23T06:04:35.952Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\Views\\Shop\\Index.cshtml",
+              "RelativeDocumentMoniker": "HirolaMVC\\Views\\Shop\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\Views\\Shop\\Index.cshtml",
+              "RelativeToolTip": "HirolaMVC\\Views\\Shop\\Index.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABwAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-23T04:39:36.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "20250223061517_Initial.cs",
+              "DocumentMoniker": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\Migrations\\20250223061517_Initial.cs",
+              "RelativeDocumentMoniker": "HirolaMVC\\Migrations\\20250223061517_Initial.cs",
+              "ToolTip": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\Migrations\\20250223061517_Initial.cs",
+              "RelativeToolTip": "HirolaMVC\\Migrations\\20250223061517_Initial.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-22T09:21:30.554Z"
+              "WhenOpened": "2025-02-23T06:15:17.779Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "20250223064621_initial.cs",
+              "DocumentMoniker": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\Migrations\\20250223064621_initial.cs",
+              "RelativeDocumentMoniker": "HirolaMVC\\Migrations\\20250223064621_initial.cs",
+              "ToolTip": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\Migrations\\20250223064621_initial.cs",
+              "RelativeToolTip": "HirolaMVC\\Migrations\\20250223064621_initial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T06:46:21.418Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "20250223055317_djivj.cs",
+              "DocumentMoniker": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\Migrations\\20250223055317_djivj.cs",
+              "RelativeDocumentMoniker": "HirolaMVC\\Migrations\\20250223055317_djivj.cs",
+              "ToolTip": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\Migrations\\20250223055317_djivj.cs",
+              "RelativeToolTip": "HirolaMVC\\Migrations\\20250223055317_djivj.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T05:53:18.098Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "20250223053908_modified.cs",
+              "DocumentMoniker": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\Migrations\\20250223053908_modified.cs",
+              "RelativeDocumentMoniker": "HirolaMVC\\Migrations\\20250223053908_modified.cs",
+              "ToolTip": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\Migrations\\20250223053908_modified.cs",
+              "RelativeToolTip": "HirolaMVC\\Migrations\\20250223053908_modified.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T05:39:08.788Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OrderItemConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\Configurations\\OrderItemConfiguration.cs",
+              "RelativeDocumentMoniker": "HirolaMVC\\Configurations\\OrderItemConfiguration.cs",
+              "ToolTip": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\Configurations\\OrderItemConfiguration.cs",
+              "RelativeToolTip": "HirolaMVC\\Configurations\\OrderItemConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T05:35:11.731Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BasketController.cs",
+              "DocumentMoniker": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\Controllers\\BasketController.cs",
+              "RelativeDocumentMoniker": "HirolaMVC\\Controllers\\BasketController.cs",
+              "ToolTip": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\Controllers\\BasketController.cs",
+              "RelativeToolTip": "HirolaMVC\\Controllers\\BasketController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwCgAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T05:04:28.892Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "HirolaMVC\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Nuran\\Desktop\\HirolaMVC\\HirolaMVC\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "HirolaMVC\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAAAHwAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-22T14:17:25.876Z",
+              "EditorCaption": ""
             }
           ]
         }

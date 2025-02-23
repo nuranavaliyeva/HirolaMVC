@@ -122,7 +122,7 @@
                                         <ul>
                                             <li><a class="hiraola-add_cart" asp-action="addbasket" asp-controller="basket" asp-route-id="@product.Id" data-toggle="tooltip" data-placement="top" title="Add To Cart"><i class="ion-bag"></i></a></li>
                                            
-                                            <li class="quick-view-btn" data-toggle="modal" data-target="#exampleModalCenter"><a href="javascript:void(0)" data-toggle="tooltip" data-placement="top" title="Quick View"><i class="ion-eye"></i></a></li>
+                                          
                                         </ul>
                                     </div>
                                 </div>
@@ -173,7 +173,7 @@
                                 @banner.Description
                             </p>
                             <div class="hiraola-btn-ps_left">
-                                <a href="shop-left-sidebar.html" class="hiraola-btn">Shopping Now</a>
+                                <a asp-action="index" asp-controller="shop" class="hiraola-btn">Shopping Now</a>
                             </div>
                         </div>
                     </div>
@@ -222,11 +222,7 @@
                                                         </a>
                                                     </li>
                                                    
-                                                    <li class="quick-view-btn" data-toggle="modal" data-target="#exampleModalCenter">
-                                                        <a href="javascript:void(0)" data-toggle="tooltip" data-placement="top" title="Quick View">
-                                                            <i class="ion-eye"></i>
-                                                        </a>
-                                                    </li>
+
                                                 </ul>
                                             </div>
                                         </div>
