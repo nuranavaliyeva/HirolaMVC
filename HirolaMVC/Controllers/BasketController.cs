@@ -87,7 +87,8 @@ namespace HirolaMVC.Controllers
                 string json = JsonConvert.SerializeObject(basket);
                 Response.Cookies.Append("basket", json);
             }
-            return RedirectToAction(nameof(GetBasket));
+            //return RedirectToAction(nameof(GetBasket));
+            return RedirectToAction("Index");
 
         }
         public async Task<IActionResult> GetBasket()
