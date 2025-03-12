@@ -4,6 +4,7 @@ using HirolaMVC.DAL;
 using HirolaMVC.Extensions;
 using HirolaMVC.Models;
 using HirolaMVC.Utilities.Enums;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -11,6 +12,7 @@ namespace HirolaMVC.Areas.Admin.Controllers
 {
     [Area("Admin")]
     [AutoValidateAntiforgeryToken]
+    [Authorize(Roles = "Admin,Moderator")]
     public class BannerController : Controller
     {
         private readonly AppDbContext _context;

@@ -2,6 +2,7 @@
 using HirolaMVC.Areas.ViewModels.Tags;
 using HirolaMVC.DAL;
 using HirolaMVC.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -9,6 +10,7 @@ namespace HirolaMVC.Areas.Admin.Controllers
 {
     [Area("Admin")]
     [AutoValidateAntiforgeryToken]
+    [Authorize(Roles = "Admin,Moderator")]
     public class ColorController : Controller
     {
         

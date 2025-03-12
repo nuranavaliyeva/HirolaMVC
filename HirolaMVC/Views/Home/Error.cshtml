@@ -1,0 +1,27 @@
+﻿
+@model string
+<div class="breadcrumb-area breadcrumb-height">
+
+    <img src="~/assets/images/i.webp" height="230" width="1920" />
+</div>
+   <!-- Begin Hiraola's Error 404 Page Area -->
+<div class="error404-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 ml-auto mr-auto text-center">
+                <div class="search-error-wrapper">
+                   
+                    <h2>@Model</h2>
+                    <p class="short_desc">
+                        Sorry but the page you are looking for does not exist, have been removed, name
+                        changed or is temporarily unavailable.
+                    </p>
+                       <br />
+                    <div class="hiraola-btn-ps_center"></div>
+                    <a asp-action="index" asp-controller="home" class="hiraola-error_btn">Back To Home Page</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Hiraola's Error 404 Page End Here -->

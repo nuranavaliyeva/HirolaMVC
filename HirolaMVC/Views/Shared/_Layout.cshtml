@@ -38,6 +38,7 @@
     <script src="~/assets/js/plugins/plugins.min.js"></script>
     -->
     <!-- Main Style CSS (Please use minify version for better website load performance) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="~/assets/css/style.css">
     <!--<link rel="stylesheet" href="~/assets/css/style.min.css">-->
 
@@ -67,7 +68,7 @@
                     <div class="row">
                         <div class="col-lg-2 col-md-4 col-sm-4">
                             <div class="header-logo">
-                                <a href="index.html">
+                                <a asp-action="index" asp-controller="home">
                                 <img src="~/assets/images/1.webp" alt="Hiraola's Header Logo">
 
                                 </a>
@@ -79,11 +80,39 @@
                                     <ul>
                                         <li class="dropdown-holder">
                                             <a asp-controller="Home" asp-action="index" >Home</a>
-                                           
+                                        
+
                                         </li>
                                         <li class="megamenu-holder">
                                             <a asp-controller="shop" asp-action="index" >Shop</a>
                                          
+                                        </li>
+
+                                        <li class="dropdown-holder">
+                                            <a>Account</a>
+                                            <ul class="hm-dropdown">
+                                                @if (User.Identity.IsAuthenticated)
+                                                {
+                                                    <li>
+                                                        <a asp-action="index" asp-controller="MyAccount">@User.Identity.Name</a>
+                                                    </li>
+                                                    <li>
+                                                        <a asp-action="logout" asp-controller="account"><i class="fa-solid fa-arrow-right-from-bracket"></i></a>
+                                                    </li>
+                                                }
+                                                else
+                                                {
+                                                    <li>
+                                                        <a asp-action="register" asp-controller="account"><i class="fa-solid fa-plus"></i>Register</a>
+                                                    </li>
+                                                    <li>
+                                                        <a asp-action="login" asp-controller="account" asp-route-returnUrl="@Context.Request.Path.Value "> <i class="fa-solid fa-right-to-bracket"></i>Login</a>
+                                                    </li>
+                                                }
+
+
+                                            </ul>
+
                                         </li>
                                        
                                       
@@ -91,18 +120,24 @@
                                 </nav>
                             </div>
                         </div>
+
+
                         <div class="col-lg-3 col-md-8 col-sm-8">
                             <div class="header-right_area">
                                 <ul>
-
                                     <li>
                                         <a href="#miniCart" class="minicart-btn toolbar-btn">
-                                            <i class="ion-bag"></i>
+                                            <i class="fa-solid fa-basket-shopping"></i>
                                         </a>
                                     </li>
                                 </ul>
                             </div>
                         </div>
+
+
+                      
+
+
                     </div>
                 </div>
             </div>
@@ -521,7 +556,7 @@
                             <div class="footer-widgets_info">
 
                                 <div class="footer-widgets_logo">
-                                    <a href="#">
+                                    <a asp-action="index" asp-controller="home">
                                        <img src="~/assets/images/1.webp" alt="Hiraola's Footer Logo">
                                     </a>
                                 </div>
@@ -625,9 +660,9 @@
                             <div class="col-lg-12">
                                 <div class="footer-links">
                                     <ul>
-                                        <li><a href="#">Online Shopping</a></li>
+                                        <li><a asp-action="index" asp-controller="basket">Online Shopping</a></li>
                                         <li><a href="#">Promotions</a></li>
-                                        <li><a href="#">My Orders</a></li>
+                                        <li><a asp-action="index" asp-controller="myaccount">My Orders</a></li>
                                         <li><a href="#">Help</a></li>
                                         <li><a href="#">Customer Service</a></li>
                                         <li><a href="#">Support</a></li>
@@ -656,7 +691,7 @@
                             </div>
                             <div class="col-lg-12">
                                 <div class="copyright">
-                                    <span>Copyright &copy; 2019 <a href="#">Hiraola.</a> All rights reserved.</span>
+                                    <span>Copyright &copy; 2019 <a asp-action="index" asp-controller="home" >Hiraola.</a> All rights reserved.</span>
                                 </div>
                             </div>
                         </div>

@@ -1,9 +1,11 @@
 using HirolaMVC.DAL;
+using HirolaMVC.Middlewares;
 using HirolaMVC.Models;
 using HirolaMVC.Services.Implementations;
 using HirolaMVC.Services.Interfaces;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Stripe;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,8 +14,10 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<AppDbContext>(opt =>
     opt.UseSqlServer(builder.Configuration.GetConnectionString("Default"))
 );
+builder.Services.Configure<StripeSettings>(builder.Configuration.GetSection("Stripe"));
 builder.Services.AddScoped<ILayoutService, LayoutService>();
 builder.Services.AddScoped<IBasketService, BasketService>();
+builder.Services.AddScoped<IEmailService,EmailService>();
 
 builder.Services.AddIdentity<AppUser, IdentityRole>(opt =>
 {
@@ -24,6 +28,7 @@ builder.Services.AddIdentity<AppUser, IdentityRole>(opt =>
     opt.Lockout.AllowedForNewUsers = true;
     opt.Lockout.MaxFailedAccessAttempts = 3;
     opt.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(3);
+    opt.SignIn.RequireConfirmedEmail = true;
 
 }).AddEntityFrameworkStores<AppDbContext>().AddDefaultTokenProviders();
 
@@ -40,9 +45,12 @@ if (!app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 
+//app.UseMiddleware<GlobalExceptionHandlerMiddleware>();
+
 app.UseRouting();
 app.UseAuthentication();
 app.UseAuthorization();
+StripeConfiguration.ApiKey = builder.Configuration["Stripe:Secretkey"];
 app.MapControllerRoute
     (
     "admin",

@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System.Drawing;
 using System.Reflection;
+using System.Reflection.Emit;
 
 namespace HirolaMVC.DAL
 {
@@ -24,9 +25,11 @@ namespace HirolaMVC.DAL
         public DbSet<ProductColor> ProductColors { get; set; }
         public DbSet<BasketItem> BasketItems { get; set; }
 
+        public DbSet<AppUser> AppUsers { get; set; }
         public DbSet<Banner> Banners { get; set; }
         protected override void OnModelCreating(ModelBuilder builder)
         {
+            
             builder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
             base.OnModelCreating(builder);
         }

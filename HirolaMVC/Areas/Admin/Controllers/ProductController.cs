@@ -12,7 +12,7 @@ using HirolaMVC.Utilities.Enums;
 namespace HirolaMVC.Areas.Admin.Controllers
 {
     [Area("Admin")]
-    //[Authorize(Roles = "Admin,Moderator")]
+    [Authorize(Roles = "Admin,Moderator")]
     public class ProductController : Controller
     {
         private readonly AppDbContext _context;
@@ -468,6 +468,25 @@ namespace HirolaMVC.Areas.Admin.Controllers
 
             return RedirectToAction(nameof(Index));
 
+
+        }
+
+        public async Task<IActionResult> Delete(int? id)
+        {
+            if (id < 1 || id is null) return BadRequest();
+            Product product = await _context.Products.Include(p => p.ProductImages).Include(p => p.ProductTags).Include(p => p.ProductColors).FirstOrDefaultAsync(p => p.Id == id);
+
+            foreach (var item in product.ProductImages.ToList())
+            {
+                item.Image.DeleteFile(_env.WebRootPath, "assets", "images");
+                product.ProductImages.Remove(item);
+            }
+            _context.ProductColors.RemoveRange(product.ProductColors);
+            _context.ProductTags.RemoveRange(product.ProductTags);
+
+            _context.Products.Remove(product);
+            await _context.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
 
         }
 

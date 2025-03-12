@@ -6,7 +6,7 @@
 <main class="main-content">
     <div class="breadcrumb-area breadcrumb-height">
         <img src="~/assets/images/i.webp" width="1920" height="230" />
-       
+
     </div>
     <div class="cart-area section-space-y-axis-100">
         <div class="container">
@@ -31,7 +31,7 @@
                                         total += item.SubTotal;
                                         <tr>
                                             <td class="hiraola-product-remove">
-                                                <a asp-action="remove" asp-controller="basket" asp-route-id="@item.ProductId" asp-route-returnurl="@Context.Request.Path.Value" >
+                                                <a asp-action="remove" asp-controller="basket" asp-route-id="@item.ProductId" asp-route-returnurl="@Context.Request.Path.Value">
                                                     <i class="fa fa-trash"
                                                        title="Remove"></i>
                                                 </a>
@@ -39,19 +39,17 @@
                                             <td class="hiraola-product-thumbnail"><a asp-action="detail" asp-controller="shop" asp-route-id="@item.ProductId"><img style="width:120px;height:120px;" src="assets/images/@item.Image" alt="Hiraola's Cart Thumbnail"></a></td>
                                             <td class="hiraola-product-name"><a asp-action="detail" asp-controller="shop" asp-route-id="@item.ProductId">@item.Name</a></td>
                                             <td class="hiraola-product-price"><span class="amount">$@item.Price</span></td>
-                                            <td class="quantity" >
+                                            <td class="quantity">
                                                 <label>Quantity</label>
-                                                <div class="cart-plus-minus">
+                                                <div >
                                                     <input class="cart-plus-minus-box" value="@item.Count" type="text">
-                                                   
-
                                                     <a asp-action="addbasket" asp-controller="basket" asp-route-id="@item.ProductId">
 
-                                                        <div class="inc qtybutton">
+                                                        
                                                             <i class="fa fa-angle-up"></i>
-                                                        </div>
+                                                       
                                                     </a>
-                                                
+
                                                 </div>
                                             </td>
                                             <td class="product-subtotal"><span class="amount">$@item.SubTotal</span></td>
@@ -61,8 +59,8 @@
                                 </tbody>
                             </table>
                         </div>
-                      
-                        <div class="row" >
+
+                        <div class="row">
                             <div class="col-md-5 ml-auto">
                                 <div class="cart-page-total">
                                     <h2>Cart totals</h2>

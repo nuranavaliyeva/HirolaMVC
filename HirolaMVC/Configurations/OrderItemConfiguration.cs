@@ -8,10 +8,13 @@ namespace HirolaMVC.Configurations
     {
         public void Configure(EntityTypeBuilder<OrderItem> builder)
         {
+
+            builder.Property(o => o.Count).IsRequired();
+            builder.Property(o => o.Price).IsRequired().HasColumnType("decimal(6,2)");
+            builder.HasIndex(o => new { o.ProductId, o.AppUserId });
+           //builder.HasOne(o => o.Order).WithMany(o=>o.OrderItems).HasForeignKey(o=>o.OrderId).OnDelete(DeleteBehavior.SetNull);
+            
            
-            builder.Property(o=>o.Count).IsRequired();
-            builder.Property(o=>o.Price).IsRequired().HasColumnType("decimal(6,2)");
-            builder.HasKey(x => new {x.AppUserId, x.ProductId });
         }
     }
 }

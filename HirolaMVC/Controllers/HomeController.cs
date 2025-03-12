@@ -17,6 +17,7 @@ namespace HirolaMVC.Controllers
         public async Task<IActionResult> Index()
         {
             
+            
             HomeVM homeVM = new HomeVM
             {
                 Products = await _context.Products.Take(8).Include(p => p.ProductImages.Where(pi => pi.IsPrimary != null)).ToListAsync(),
@@ -41,10 +42,13 @@ namespace HirolaMVC.Controllers
 
             return View(homeVM);
         }
+
         public IActionResult Error(string errorMessage)
         {
-            return View(model: errorMessage);
+            return View(model : errorMessage);
         }
+
+       
 
 
     }

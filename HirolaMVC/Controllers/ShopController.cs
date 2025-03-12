@@ -1,8 +1,10 @@
 ﻿using HirolaMVC.DAL;
 using HirolaMVC.Models;
 using HirolaMVC.Utilities.Enums;
+using HirolaMVC.Utilities.Exceptions;
 using HirolaMVC.ViewModels;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.CodeAnalysis.CSharp.Syntax;
 using Microsoft.EntityFrameworkCore;
 
 namespace HirolaMVC.Controllers
@@ -84,7 +86,7 @@ namespace HirolaMVC.Controllers
         }
         public async Task<IActionResult> Detail(int? id)
         {
-            if (id < 1 || id is null) return BadRequest();
+            if (id < 1 || id is null) throw new NotFoundException();
             Product? product = await _context.Products
                 .Include(p => p.Category)
                 .Include(p => p.ProductImages.OrderByDescending(pi => pi.IsPrimary))
@@ -95,7 +97,7 @@ namespace HirolaMVC.Controllers
                 .Include(p=>p.Brand)
                 .FirstOrDefaultAsync(p => p.Id == id);
 
-            if (product is null) return NotFound();
+            if (product is null) throw new BadRequestException();
             DetailVM detailVM = new DetailVM
             {
                 Product = product,

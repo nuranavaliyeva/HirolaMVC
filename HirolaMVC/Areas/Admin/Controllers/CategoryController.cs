@@ -1,6 +1,7 @@
 ﻿using HirolaMVC.Areas.ViewModels.Categories;
 using HirolaMVC.DAL;
 using HirolaMVC.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -8,6 +9,7 @@ namespace HirolaMVC.Areas.Admin.Controllers
 {
     [Area("Admin")]
     [AutoValidateAntiforgeryToken]
+    [Authorize(Roles = "Admin,Moderator")]
     public class CategoryController : Controller
     {
         private readonly AppDbContext _context;
